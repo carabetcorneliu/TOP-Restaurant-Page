@@ -1,0 +1,122 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding-left: 20%;
+    padding-right: 20%; */
+
+    background-color: black;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding-right: 20px;
+
+    font-size: larger;
+    font-weight: bold;
+}
+
+body {
+    background-image: url('./img/7575.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.contentContainer {
+    margin: 20px 0;
+    padding: 10px;
+
+    text-align: center;
+
+    background: white;
+    border: 2px solid black;
+}
+
+.descriptionContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* images for description text */
+.descriptionDiv:nth-of-type(1) {
+    background-image: url('./img/young-friends-sitting-cafe-while-drinking-alcohol.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.descriptionDiv:nth-of-type(2) {
+    background-image: url('./img/glass-beer-with-froth-snacks.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.descriptionDiv:nth-of-type(3) {
+    background-image: url('./img/caesar-pizza-table.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.descriptionDiv:nth-of-type(4) {
+    background-image: url('./img/view-beer-beer-glass.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.descriptionDiv:nth-of-type(5) {
+    background-image: url('./img/various-salads-with-glass-water.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.descriptionPara {
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    margin: auto;
+    padding: 15px;
+}
+
+.footer {
+    /* padding-left: 20%;
+    padding-right: 20%; */
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+    color: white;
+    box-shadow: 2px -2px 2px 2px white;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.nav,
+.footer ul {
+    list-style-type: none;
+    color: white;
+}
+
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+    text-decoration: none;
+    color: white;
+}
